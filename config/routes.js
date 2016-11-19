@@ -36,10 +36,17 @@ module.exports.routes = {
     view: 'homepage'
   },
 
+  '/getEvents/:weekNo': {
+    controller: 'EventsController',
+    action: 'getEvents'
+  },
+
   '/getEvents': {
     controller: 'EventsController',
     action: 'getEvents'
   }
+
+
 
   /***************************************************************************
   *                                                                          *
